@@ -1,0 +1,31 @@
+{
+  "name": "redux-headers",
+  "version": "1.0.0",
+  "description": "request-response headers keep in redux store.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf lib/; babel ./src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbubble/redux-headers.git"
+  },
+  "keywords": [
+    "redux",
+    "redux-headers"
+  ],
+  "author": "imbubble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imbubble/redux-headers/issues"
+  },
+  "homepage": "https://github.com/imbubble/redux-headers#readme",
+  "dependencies": {
+    "redux": "^3.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-latest": "^6.14.0"
+  }
+}
